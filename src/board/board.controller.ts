@@ -38,6 +38,7 @@ export class BoardController {
     @Param('id') id:string,
     @Body('status') status: BoardStatus,
   ){
-    return this.boardService.updateBoardStatus(id,status)
+    return this.boardService.updateBoardStatus(id,status
+      )
   }
 }
