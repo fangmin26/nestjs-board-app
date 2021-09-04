@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { BoardModule } from './board/board.module';
+import { BoardModule } from './boards/board.module';
 
 @Module({
   imports: [BoardModule],
